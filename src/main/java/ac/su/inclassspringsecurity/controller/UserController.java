@@ -34,7 +34,7 @@ import java.util.List;
 public class UserController {
     private final UserService userService;
 
-    //@GetMapping("/signup")
+    @GetMapping("/signup")
     public String signup(
         UserCreateForm userCreateForm
     ) {
